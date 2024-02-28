@@ -12,7 +12,7 @@ import jakarta.persistence.PersistenceContext;
 
 @Configuration
 @EnableJpaAuditing
-@EnableJpaRepositories(basePackages = "com.time")
+@EnableJpaRepositories(basePackages = "com.backend.practice")
 public class DSLConfig {
 	
 	
